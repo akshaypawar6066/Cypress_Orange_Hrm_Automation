@@ -1,20 +1,11 @@
 class LoginPage {
 
-
-    setUsername(username) {
+    loginToApplication(username, password)
+    {
         cy.get("[name='username']").type(username);
-
-
-    }
-
-
-    setPassword(password) {
         cy.xpath("//input[@name='password']").type(password);
-    }
-
-
-    clickOnLoginButton() {
         cy.get("[type='submit']").click();
+
     }
 
     verifyLoginWithCorrectCredentails(expectedUrl)

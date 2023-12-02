@@ -28,7 +28,7 @@
 /// <reference types="cypress-xpath" />
 
 //To vist application...
-Cypress.Commands.add('visitingApplication', ()=>
+Cypress.Commands.add('visitApplication', ()=>
 {
     cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
 })
