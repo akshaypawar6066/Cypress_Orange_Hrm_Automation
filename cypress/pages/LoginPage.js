@@ -8,9 +8,9 @@ class LoginPage {
 
     }
 
-    verifyLoginWithCorrectCredentails(expectedUrl)
+    verifyLoginWithCorrectCredentails(expectedUrlEndPoint)
     {
-       if(cy.url().should('include', expectedUrl))
+       if(cy.url().should('include', expectedUrlEndPoint))
        {
         cy.log('able to login the application...!!!')
        }
