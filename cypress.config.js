@@ -19,7 +19,7 @@ module.exports = defineConfig({
       password:'admin123'
     },
     experimentalRunAllSpecs:true,
-    video:true,
+    //video:true,
     screenshotOnRunFailure:true
   },
 });
